@@ -1,0 +1,8 @@
+
+
+<% for file in @files %>
+<ul>
+file name is: 
+<li><%= file %> </li>
+</ul>
+<% end %>

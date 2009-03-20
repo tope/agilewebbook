@@ -1,0 +1,16 @@
+
+
+<html>
+<head>
+<title>Hello, Rails!</title>
+</head>
+<body>
+<h1>Hello from Rails!</h1>
+<p>
+  <% 3.times do %>
+Ho!<br />
+<% end -%>
+Merry Christmas!
+</p>
+</body>
+</html>

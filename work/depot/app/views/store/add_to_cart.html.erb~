@@ -1,0 +1,13 @@
+<h1> Your Prag Cart</h1>
+<div class="cart-title">Your Cart</div>
+<table>
+  
+
+<tr class="total-line">
+  <td colspan="2">Total</td>
+  <td class="total-cell"><%= number_to_currency(@cart.total_price) %></td>
+</tr>
+
+</table>
+
+<%= button_to "Empty cart" , :action => :empty_cart %>

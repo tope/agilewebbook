@@ -1,0 +1,10 @@
+
+development:
+  adapter: mysql
+  database: r4rmusic1_development
+  username: root
+  password:
+  host: localhost
+  socket: /var/run/mysqld/mysqld.sock
+
+

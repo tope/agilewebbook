@@ -1,0 +1,22 @@
+<div class="depot-form">
+
+  <%= error_messages_for 'order' %>
+
+  <fieldset>
+
+    <legend>Pls enter Your details </legend>
+
+    <% form_for :order, :url => { :action => :save_order } do |form| %>
+  
+      <p>
+        <%= label :order, :name, "Name:" %>
+        <%= form.text_field :name, :size => 40 %>
+      </p>
+
+      <p>
+        <%= label :order, :address, "Address:" %>
+        <%= form.text_area :address, :rows => 3, :cols => 40 %>
+      </p>
+
+      <p>
+        
